@@ -65,7 +65,10 @@ class MyClient(discord.Client):
         # we may get ill-formed response if the model hasn't fully loaded
         # or has timed out
         if not bot_response:
-            bot_response = 'Hmm... something is not right.'
+            if 'error' in response:
+                bot_response = '`Error: {}`'.format(response['error'])
+            else:
+                bot_response = 'Hmm... something is not right.'
 
         # send the model's response to the Discord channel
         await message.channel.send(bot_response)
