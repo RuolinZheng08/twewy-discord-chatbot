@@ -1,4 +1,4 @@
-# Discord Chatbot: The World Ends With You
+# Build a Discord AI Chatbot that Speaks like Your Favorite Character!
 
 <img src="https://github.com/RuolinZheng08/twewy-discord-chatbot/blob/main/gif-demo/icon.png" width=200><br>
 
