@@ -46,10 +46,10 @@ client.on('message', async message => {
     } else if (data.hasOwnProperty('error')) { // error condition
         botResponse = data.error;
     }
-    message.reply(botResponse);
-
     // stop typing
     message.channel.stopTyping();
+    // send message to channel as a reply
+    message.reply(botResponse);
 })
 
 client.login(process.env.DISCORD_TOKEN);
