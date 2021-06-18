@@ -1,6 +1,8 @@
 # Build a Discord AI Chatbot that Speaks like Your Favorite Character!
 
-<img src="https://github.com/RuolinZheng08/twewy-discord-chatbot/blob/main/gif-demo/icon.png" width=200><br>
+<div align="center">
+  <img src="https://github.com/RuolinZheng08/twewy-discord-chatbot/blob/main/gif-demo/icon.png" width=200>
+</div>
 
 This is a Discord AI Chatbot that uses the [Microsoft DialoGPT conversational model](https://huggingface.co/microsoft/DialoGPT-medium) fine-tuned on the game transcript of [The World Ends With You](https://en.wikipedia.org/wiki/The_World_Ends_with_You) (TWEWY). Read [my tutorial on freeCodeCamp](https://www.freecodecamp.org/news/discord-ai-chatbot/) or watch [my video tutorial on YouTube](https://youtu.be/UBwvFuTC1ZE). I've also made [a JavaScript version of the tutorial using Discord.js](https://youtu.be/XR6JFRLxe5A).
 
