@@ -26,6 +26,7 @@ You can also directly chat with the model hosted on [Hugging Face's Model Hub](h
 
 ## Resource Links
 
+- [15-min chat demo](https://youtu.be/-n6uWu8PZzo)
 - [My tutorial on freeCodeCamp](https://www.freecodecamp.org/news/discord-ai-chatbot/)
 - [My video tutorial on YouTube](https://youtu.be/UBwvFuTC1ZE)
 - [My JavaScript version of this tutorial on YouTube](https://youtu.be/XR6JFRLxe5A)
