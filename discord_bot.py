@@ -14,7 +14,10 @@ API_URL = 'https://api-inference.huggingface.co/models/r3dhummingbird/'
 
 class MyClient(discord.Client):
     def __init__(self, model_name):
-        super().__init__()
+        # adding intents module to prevent intents error in __init__ method in newer versions of Discord.py
+        intents = discord.Intents.default() # Select all the intents in your bot settings as it's easier
+        intents.message_content = True
+        super().__init__(intents=intents)
         self.api_endpoint = API_URL + model_name
         # retrieve the secret API token from the system environment
         huggingface_token = os.environ['HUGGINGFACE_TOKEN']
