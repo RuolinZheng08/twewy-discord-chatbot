@@ -1,5 +1,9 @@
 # Build a Discord AI Chatbot that Speaks like Your Favorite Character!
 
+<p>
+<a href="https://console.tiyaro.ai/explore/r3dhummingbird-DialoGPT-medium-joshua"> <img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/try_on_tiyaro_badge.svg"></a>
+</p>
+
 <div align="center">
   <img src="https://github.com/RuolinZheng08/twewy-discord-chatbot/blob/main/gif-demo/icon.png" width=200>
 </div>
