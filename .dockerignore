@@ -1,0 +1,9 @@
+discord_bot.js
+docker-compose.yml
+Dockerfile
+.env
+.env.*
+.git
+.gitignore
+LICENSE
+README.md
