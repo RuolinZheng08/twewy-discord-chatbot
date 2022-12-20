@@ -9,4 +9,4 @@ COPY . .
 
 RUN pip install --no-cache-dir -r ${APP_DIR}/requirements.txt
 
-CMD [ "python", "./discord_bot.py" ]
+CMD python ${SCRIPT_NAME}
